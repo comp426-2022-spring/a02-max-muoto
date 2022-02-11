@@ -73,12 +73,12 @@ function countFlips(array) {
       num_tails += 1;
     }
   }
-  if (heads == 0) {
+  if (num_heads == 0) {
     return {
       tails: num_tails
     };
   }
-  if (tails == 0) {
+  if (num_tails == 0) {
     return {
       heads: num_heads,
     };
