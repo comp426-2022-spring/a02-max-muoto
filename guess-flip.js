@@ -10,5 +10,5 @@ const cl = argv.call;
 if (cl == "heads" || cl == "tails") {
     console.log(flipACoin(cl));
 } else {
-    console.log("Error: there was no input.\nUsage: node guess-flip --call=[heads|tails]");
+    console.log("Error: no input.\nUsage: node guess-flip --call=[heads|tails]");
 }
