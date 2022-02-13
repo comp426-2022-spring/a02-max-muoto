@@ -7,8 +7,8 @@ argv["call"];
 
 const cl = argv.call;
 
-if (cl === undefined || cl != "tails" || cl != "heads") {
-    console.log("Error: there was no input.\nUsage: node guess-flip --call=[heads|tails]")
-} else {
+if (cl == "heads" || cl == "tails") {
     console.log(flipACoin(cl));
+} else {
+    console.log("Error: there was no input.\nUsage: node guess-flip --call=[heads|tails]");
 }
